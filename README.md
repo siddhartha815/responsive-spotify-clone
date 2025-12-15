@@ -26,3 +26,6 @@ https://siddhartha815.github.io/responsive-spotify-clone/
 
 ## How to Run Locally
 Simply open `index.html` in your browser.
+
+## Note
+Audio files are compressed and included for demo purposes only.
