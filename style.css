@@ -1057,6 +1057,19 @@ nav {
     .left {
         width: 30vw;
     }
+
+    .create-playlist {
+        gap: 5px;
+        top: 61px;
+        right: 22px;
+        font-size: 11px;
+        font-weight: 400;
+        padding: 10px 3px;
+    }
+
+    .create-playlist img {
+        width: 10px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -1298,4 +1311,5 @@ nav {
     .installApp {
         margin-right: -10px;
     }
+
 }
