@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="visualEffects.css">
+</head>
+<body>
+    <nav>
+        <div class="left-nav">
+            <img src="assets/logo.svg" alt="Spotify" class="logo">
+            <img src="assets/home.svg" alt="Home" class="home" title="Home">
+            <div class="search-bar">
+                <img src="assets/search.svg" alt="Search Icon" class="search" title="Search">
+                <input type="text" id="search-input" placeholder="What do you want to play?">
+                <span>|</span>
+                <img src="assets/browse.svg" alt="Browse" class="browse" width="28px" height="28px" title="Browse">
+            </div>
+        </div>
+
+        <div class="right-nav">
+            <span>Premium</span>
+            <span>Support</span>
+            <span>Download</span>
+            <div>
+                |
+                <div class="installApp">
+                    <img src="assets/install.svg" alt="Install" class="install">
+                    Install App
+                </div>
+                <button class="signup-btn">Sign up</button>
+                <button class="login-btn">Log in</button>
+            </div>
+        </div>
+
+        <img src="assets/menu.svg" alt="" class="menu">
+        <img src="assets/cancel.svg" alt="" class="cancel">
+    </nav>
+
+
+    <div class="container">
+        <div class="left">
+            <div class="header">
+                Your Library
+                <img src="assets/plus.svg" alt="Plus" class="plus" title="Create playlist or folder">
+            </div>
+
+            <div class="card first-card">
+                <p>Create your first playlist</p>
+                <p>It’s easy, we’ll help you</p>
+                <button>Create playlist</button>
+            </div>
+
+            <div class="card second-card">
+                <p>Let’s find some podcasts to follow</p>
+                <p>We’ll keep you updated on new episodes</p>
+                <button>Browse podcasts</button>
+            </div>
+
+            <div class="footer">
+                <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">
+                    Legal
+                </a>
+                <a href="https://www.spotify.com/in-en/safetyandprivacy">
+                    Safety & Privacy Center
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                    Privacy Policy
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                    Cookies
+                </a>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                    About Ads
+                </a>
+                <a href="https://www.spotify.com/in-en/accessibility/">
+                    Accessibility
+                </a>
+            </div>
+
+            <a href="https://www.spotify.com/legal/cookies-policy/" class="cookies">Cookies</a>
+
+            <button class="language">
+                <img src="assets/globe.svg" alt="Globe" class="globe">
+                English
+            </button>
+
+            <div class="create-playlist visible">
+                <img src="assets/playlist.svg" alt="" width="15px">
+                <div>Create a new playlist</div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header-right">
+                <h2>Trending songs</h2>
+                <h4>Show all</h4>
+            </div>
+
+            <div class="trending-songs">
+                <div>
+                    <img src="images/slate 1/slide1.jpg" alt="" width="160px">
+                    <p title="Tere Liye">Tere Liye</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx">Atif Aslam</a>,
+                        <a href="https://open.spotify.com/artist/0oOet2f43PA68X5RxKobEy">Shreya Ghoshal</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide2.jpg" alt="" width="160px">
+                    <p title="Andaaz e Karam">Andaaz e Karam</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/2kfi47LWmlXzQ3p3kWonfQ">Madhur Sharma</a>,
+                        <a href="https://open.spotify.com/artist/7xgtUknw8tyUhWkSnMjhti">Moin</a>,
+                        <a href="https://open.spotify.com/artist/7uhWXYh7CNH1M9Dwko8qll">ER</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide3.jpg" alt="" width="160px">
+                    <p title="Jeene Laga Hoon">Jeene Laga Hoon</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/1mBydYMVBECdDmMfE2sEUO">Sachin-Jigar</a>,
+                        <a href="https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx">Atif Aslam</a>,
+                        <a href="https://open.spotify.com/artist/0oOet2f43PA68X5RxKobEy">Shreya Ghoshal</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide4.jpg" alt="" width="160px">
+                    <p title="Aawaara Angaara">Aawaara Angaara</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG">A.R. Rahman</a>, <a href="https://open.spotify.com/artist/05etL4pzWd6TSv1x5WrlG3">Faheem Abdullah</a>, <a href="https://open.spotify.com/artist/3GdSQUH1BRtl9UrrtuwJlP">Irshad Kamil</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide5.jpg" alt="" width="160px">
+                    <p title="Let Me Love You">Let Me Love You</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/540vIaP2JwjQb9dm3aArA4">DJ Snake</a>, <a href="https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s">Justin Bieber</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide6.jpg" alt="" width="160px">
+                    <p title="By My Side">By My Side</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/6LEG9Ld1aLImEFEVHdWNSB">AP Dhillon</a>, <a href="https://open.spotify.com/artist/6aQfrWHwAcuY8IYItbChZh">Shinda Kahlon</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide7.jpg" alt="" width="160px">
+                    <p title="Financer">Financer</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/74L1hcSZY4R6mo3yWNflRe">Bintu Pabra</a>, <a href="https://open.spotify.com/artist/7rgZG7aLO7ZLPZNxy08GRb">Bamboo Beat</a>, <a href="https://open.spotify.com/artist/5TF8wtgrYplT0tJFjoV9Me">Pranjal Dahiya</a>, <a href="https://open.spotify.com/artist/3KOSRNy74RLnTAFn0u1tmN">Shiva Choudhary</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide8.jpg" alt="" width="160px">
+                    <p title="Dooron Dooron">Dooron Dooron</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/0DHOOKfXu4aU7LsWjTdrIN">Paresh Pahuja</a>, <a href="https://open.spotify.com/artist/74wYoI5DV3XZGJri7l9cOP">Shiv Tandan</a>, <a href="https://open.spotify.com/artist/1e3Yx1PLC5EP8lz0OFOHda">Meghdeep Bose</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide9.jpg" alt="" width="160px">
+                    <p title="Monica">Monica</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O">Anirudh Ravichander</a>, <a href="https://open.spotify.com/artist/0nh5cRtt03SU6LhzhVC5fv">Sublahshini</a>, <a href="https://open.spotify.com/artist/4b1WCDqAVVgxK7KozLkOqc">Asal Kolaar</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide10.jpg" alt="" width="160px">
+                    <p title='Chale Aana (From "De De Pyaar De")'>Chale Aana (From "De De Pyaar De")</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/76fuWYgIf3TVIopTs3vaJ6">Amaal Mallik</a>, <a href="https://open.spotify.com/artist/4IKVDbCSBTxBeAsMKjAuTs">Armaan Malik</a>, <a href="https://open.spotify.com/artist/52XgeWw24o4klNdfwvB0Vx">Kunaal Vermaa</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide11.jpg" alt="" width="160px">
+                    <p title="Kannukulla">Kannukulla</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/5jJrJU7VVmxQQLcLAmmxXc">Sai Abhyankkar</a>, <a href="https://open.spotify.com/artist/00sCATpEvwH48ays7PlQFU">Jonita Gandhi</a>, <a href="https://open.spotify.com/artist/30LwulQlfH8xE5Bf9P7QaK">Adesh Krishna</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide12.jpg" alt="" width="160px">
+                    <p title='Dhurandhar - Title Track (From "Dhurandhar")'>Dhurandhar - Title Track (From "Dhurandhar")</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/465OXuCU8YZNmVG1leLwQ9">Shashwat Sachdev</a>, <a href="https://open.spotify.com/artist/4nVa6XlBFlIkF6msW57PHp">Hanumankind</a>, <a href="https://open.spotify.com/artist/0mJDQBWytBhOh5JB1DOQ1c">Jasmine Sandlas</a>, <a href="https://open.spotify.com/artist/586UieDtNlK2F8hEMayYbb">Sudhir Yaduvanshi</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide13.jpg" alt="" width="160px">
+                    <p title="Phurr - From the Movie “Kis Kisko Pyaar Karoon 2”">Phurr - From the Movie "Kis Kisko Pyaar Karoon 2"</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/7uIbLdzzSEqnX0Pkrb56cR">Yo Yo Honey Singh</a>, <a href="https://open.spotify.com/artist/6SWmwFBXIsxhIx5XPkYo0a">Josh Brar</a>, <a href="https://open.spotify.com/artist/6ZBd1hRd7fSEEn7UM1UDCv">Raj Brar</a>, <a href="https://open.spotify.com/artist/2fQMiJ1MvUHYPfJsKAhIIr">Leo Grewal</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide14.jpg" alt="" width="160px">
+                    <p title="Aakh Ye Taalibaani">Aakh Ye Taalibaani</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/5qOMhLYGpLWkX4yvBDfAxw">Manish Sonipat Aala</a>, <a href="https://open.spotify.com/artist/3lNCYjWO527Kii9tkqg7Wc">Bali Sharma</a>, <a href="https://open.spotify.com/artist/12QL6cy6qvkF2olxJ6GcL2">Vampire</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide15.jpg" alt="" width="160px">
+                    <p title="bargad">bargad</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/0H2Xt7XJQyDItXNN3j7F1F">sufr</a>, <a href="https://open.spotify.com/artist/6qtADmCOQ6a9NlpMULzJj9">Arpit Bala</a>, <a href="https://open.spotify.com/artist/2K7LWCOiWME8Na9QWEbUwL">toorjo dey</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide16.jpg" alt="" width="160px">
+                    <p title="Do It">Do It</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/2dIgFjalVxs4ThymZ67YCE">Stray Kids</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide17.jpg" alt="" width="160px">
+                    <p title="Kamaal Hai">Kamaal Hai</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/5NHm4TU5Twz7owibYxJfFU">King</a>, <a href="https://open.spotify.com/artist/2IX6xq1cVcBoD4obUsT5xs">Aditya Dev</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide18.jpg" alt="" width="160px">
+                    <p title="You & I">You & I</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/4Ai0pGz6GhQavjzaRhPTvz">DIVINE</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide19.jpg" alt="" width="160px">
+                    <p title="Khayaal">Khayaal</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/6QoCrBHsojKnOrsGNfRcTN">Talwiinder</a>, <a href="https://open.spotify.com/artist/5xh6szshoZ0UfZD1x6QzZG">NDS</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/slate 1/slide20.jpg" alt="" width="160px">
+                    <p title="Bol Do Na Zara">Bol Do Na Zara</p>
+                    <div class="artists">
+                        <a href="https://open.spotify.com/artist/4IKVDbCSBTxBeAsMKjAuTs">Armaan Malik</a>
+                    </div>
+                    <div class="play-button">
+                        <img src="assets/playButton.svg" alt="" width="25px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-artists">
+                <div class="popular-artists-header">
+                    <h2>Popular artists</h2>
+                    <h4>Show all</h4>
+                </div>
+
+                <div class="popular-artists-body">
+                    <div>
+                        <img src="images/slate 2/slide1.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU" title="Pritam">Pritam</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/slate 2/slide2.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG" title="A.R. Rahman">A.R. Rahman</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/slate 2/slide3.jpg" alt="" width="160px" height="165px">
+                        <a href="https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw" title="Arijit Singh">Arijit Singh</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="images/slate 2/slide4.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/1mBydYMVBECdDmMfE2sEUO" title="Sachin-Jigar">Sachin-Jigar</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide5.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/6Mv8GjQa7LKUGCAqa9qqdb" title="Vishal-Shekhar">Vishal-Shekhar</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide6.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx" title="Atif Aslam">Atif Aslam</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide7.jpg" alt="" width="160px" height="160px">
+                        <a href="https://open.spotify.com/artist/4zCH9qm4R2DADamUHMCa6O" title="Anirudh Ravichander">Anirudh Ravichander</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide8.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/70B80Lwx2sxti0M1Ng9e8K" title="Udit Narayan">Udit Narayan</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide9.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/7uIbLdzzSEqnX0Pkrb56cR" title="Yo Yo Honey Singh">Yo Yo Honey Singh</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 2/slide10.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/artist/0L5GV6LN8SWWUWIdBbTLTZ" title="Shankar-Ehsaan-Loy">Shankar-Ehsaan-Loy</a>
+                        <p>Artist</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-albums">
+                <div class="popular-albums-header">
+                    <h2>Popular albums and singles</h2>
+                    <h4>Show all</h4>
+                </div>
+
+                <div class="popular-albums-body">
+                    <div>
+                        <img src="images/slate 3/slide1.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/0Rkv5iqjF2uenfL0OVB8hg">Aashiqui 2</a>
+                        <div><a href="https://open.spotify.com/artist/09UmIX92EUH9hAK4bxvHx6">Mithoon</a>, <a href="https://open.spotify.com/artist/0E02VcvA5p1ndkLdqWD5JB">Ankit Tiwari</a>, <a href="https://open.spotify.com/artist/2kkQthS9OLpK4UqNWYqoVl">Jeet Gannguli</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide2.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/2Lxoc72vRTGdQfMvj7Ovi1">Yeh Jawaani Hai Deewani</a>
+                        <div><a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU">Pritam</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide3.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/2yYfIOq25JQWvUQ9AR172D">Sanam Teri Kasam (Original Motion Picture Soundtrack)</a>
+                        <div><a href="https://open.spotify.com/artist/0sSxphmGskGCKlwB9xa6WU">Himesh Reshammiya</a>, <a href="https://open.spotify.com/artist/5sifufajls8Q6k04Y4F8mH">Sameer Anjaan</a>, <a href="https://open.spotify.com/artist/5rTqcZKHN2APLJNzML4zEF">Subrat Sinha</a>, <a href="https://open.spotify.com/artist/6KZ6c43Dnjm6STHZ6avQU1">Shabbir Ahmed</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide4.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/69xcXWqK1aN73KgVA2i3Zq">Finding Her</a>
+                        <div><a href="https://open.spotify.com/artist/2IKfr1JgPRXmXKAWwrABc6">Kushagra</a>, <a href="https://open.spotify.com/artist/1zD9gVg8wPOmVfYxTjMHaT">Bharath</a>, <a href="https://open.spotify.com/artist/29S4JzoFUP1MCyMgKd83zM">Saaheal</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide5.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/4Qhs9M8b7MafoxTPhfG6Hq">Young G.O.A.T</a>
+                        <div><a href="https://open.spotify.com/artist/0uOUeC51AxGnP6hB8gurwt">Cheema Y</a>, <a href="https://open.spotify.com/artist/0QntOArZgiNHoemAzwJPu5">Gur Sidhu</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide6.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/1poClftP5T3zRcqpsxPPfW">Raanjhan (From "Do Patti")</a>
+                        <div><a href="https://open.spotify.com/artist/1SyKki7JI1AZNKwgNMkn25">Sachet-Parampara</a>, <a href="https://open.spotify.com/artist/1E6arsXf5Fgsnv9YpSzjpE">Parampara Tandon</a>, <a href="https://open.spotify.com/artist/3GBSge8pq7mpezUQl0GAOA">Kausar Munir</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide7.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/1WwkojG9sjMSrFVz4D51W0">Ultimate Love Songs - Arijit Singh</a>
+                        <div><a href="https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw">Arijit Singh</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide8.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/3BGU0BqGwBkYDHpfCWFm7I">Making Memories</a>
+                        <div><a href="https://open.spotify.com/artist/6DARBhWbfcS9E4yJzcliqQ">Karan Aujla</a>, <a href="https://open.spotify.com/artist/3nqS8jzqmsPKFJTp0BOIel">Ikky</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <div style="width: 160px; height: 159px; border-radius: 10px; background-color: #333333; display: flex; justify-content: center; align-items: center;">
+                            <img src="images/slate 3/slide9.svg" alt="" width="60px">
+                        </div>
+                        <div style="margin-top: 9px; font-size: 14px; color: rgb(180, 176, 176);">Various Artists</div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 3/slide10.jpg" alt="" width="160px">
+                        <a href="https://open.spotify.com/album/2JpU8VtlJR0XFkkLeHjNzl">Sicario</a>
+                        <div><a href="https://open.spotify.com/artist/5r3wPya2PpeTTsXsGhQU8O">Shubh</a></div>
+
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular-radio">
+                <div class="popular-radio-header">
+                    <h2>Popular radio</h2>
+                    <h4>Show all</h4>
+                </div>
+
+                <div class="popular-radio-body">
+                    <div>
+                        <img src="images/slate 4/slide1.jpg" alt="" width="160px">
+                        <p>With Sachin-Jigar, Jeet Gannguli, Atif Aslam and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide2.jpg" alt="" width="160px">
+                        <p>With Pritam, Ankit Tiwari, Vishal-Shekhar and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide3.jpg" alt="" width="160px">
+                        <p>With A.R. Rahman, Atif Aslam, Arijit Singh and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide4.jpg" alt="" width="160px">
+                        <p>With Vinod Rathod, Kumar Sanu, Udit Narayan and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide5.jpg" alt="" width="160px">
+                        <p>With Shubh, Karan Aujla, AP Dhillon and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide6.jpg" alt="" width="160px">
+                        <p>With Hariharan, Unnikrishnan, Arijit Singh and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide7.jpg" alt="" width="160px">
+                        <p>With Guru Randhawa, Pritam, Harrdy Sandhu and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide8.jpg" alt="" width="160px">
+                        <p>With Shubh, Sunny Malton, Prem Dhillon and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide9.jpg" alt="" width="160px">
+                        <p>With Mukesh, Tabassum, Hemant Kumar and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 4/slide10.jpg" alt="" width="160px">
+                        <p>With Anuradha Paudwal, Asha Bhosle, Jatin-Lalit and more</p>
+                        <div class="play-button">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-charts">
+                <div class="featured-charts-header">
+                    <h2>Featured Charts</h2>
+                    <h4>Show all</h4>
+                </div>
+
+                <div class="featured-charts-body">
+                    <div>
+                        <img src="images/slate 5/slide1.jpg" alt="" width="160px">
+                        <div>Your weekly update of the most played tracks right now - Global.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 5/slide2.jpg" alt="" width="160px">
+                        <div>Your weekly update of the most played tracks right now - India.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 5/slide3.jpg" alt="" width="160px">
+                        <div>Your daily update of the most played tracks right now - Global.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 5/slide4.jpg" alt="" width="160px">
+                        <div>Your daily update of the most played tracks right now - India.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 5/slide5.jpg" alt="" width="160px">
+                        <div>Your daily update of the most viral tracks right now - Global.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/slate 5/slide6.jpg" alt="" width="160px">
+                        <div>Your daily update of the most viral tracks right now - India.</div>
+                        
+                        <div class="play-button" style="position: absolute; top: 128px; right: 15px; width: 50px; height: 50px; border-radius: 50%; background-color: rgba(30, 215, 96, 1); display: flex; justify-content: center; align-items: center;">
+                            <img src="assets/playButton.svg" alt="" width="25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="right-footer">
+                <div class="links">
+                    <div>
+                        Company
+                        <a href="https://www.spotify.com/in-en/about-us/contact/">About</a>
+                        <a href="https://www.lifeatspotify.com/">Jobs</a>
+                        <a href="https://newsroom.spotify.com/">For the Record</a>
+                    </div>
+                    <div>
+                        Communities
+                        <a href="https://artists.spotify.com/">For Artists</a>
+                        <a href="https://developer.spotify.com/">Developers</a>
+                        <a href="https://ads.spotify.com/">Advertising</a>
+                        <a href="https://investors.spotify.com/">Investors</a>
+                        <a href="https://spotifyforvendors.com/">Vendors</a>
+                    </div>
+                    <div>
+                        Useful links
+                        <a href="https://support.spotify.com/">Support</a>
+                        <a href="https://www.spotify.com/in-en/free/">Free Mobile App</a>
+                        <a href="https://open.spotify.com/popular-in/in">Popular by Country</a>
+                        <a href="https://www.spotify.com/in-en/import-music/">Import your music</a>
+                    </div>
+                    <div>
+                        Spotify Plans
+                        <a href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_lite">Premium Lite</a>
+                        <a href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">Premium Standard</a>
+                        <a href="https://www.spotify.com/in-en/platinum/#ref=spotifycom_footer_platinum">Premium Platinum</a>
+                        <a href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">Premium Student</a>
+                        <a href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">Spotify Free</a>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <a href="https://instagram.com/spotify">
+                        <img src="assets/instagram.svg" alt="" class="instagram">
+                    </a>
+                    <a href="https://twitter.com/spotify">
+                        <img src="assets/twitter.svg" alt="" class="twitter">
+                    </a>
+                    <a href="https://www.facebook.com/Spotify">
+                        <img src="assets/facebook.svg" alt="" class="facebook">
+                    </a>
+                </div>
+            </div>
+
+            <div class="hr2"></div>
+
+            <div class="extras">© 2025 Spotify AB</div>
+
+            <div class="playbar">
+                <div class="playbar-top">
+                    <div class="song-name"></div>
+
+                    <div class="controls">
+                        <img src="assets/previous.svg" alt="">
+                        <img src="assets/pause.svg" alt="">
+                        <img src="assets/next.svg" alt="">
+                    </div>
+
+                    <div class="volume">
+                        <img src="assets/volume.svg" alt="">
+                        <div class="volume-seekbar">
+                            <div class="volume-circle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="seekbar-container">
+                    <div class="currentTime">00:00</div>
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="duration">00:00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

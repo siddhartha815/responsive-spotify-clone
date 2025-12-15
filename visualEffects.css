@@ -1,0 +1,163 @@
+* {
+    user-select: none;
+}
+
+.left-nav img {
+    cursor: pointer;
+}
+
+.home:hover {
+    scale: 1.05;
+    background-color: #2a2a2a;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-bar:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: #2a2a2a;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.right-nav span:hover {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.installApp:hover {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    transition: all 0.2s ease-in-out;
+    color: white;
+    scale: 1.05;
+    cursor: pointer;
+    background: transparent;
+}
+
+.login-btn:hover {
+    transition: all 0.2s ease-in-out;
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.plus:hover {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: #1f1f1f;
+}
+
+.plus:active {
+    background-color: black;
+}
+
+.card button:hover {
+    transition: all 0.2s ease-in-out;
+    scale: 1.03;
+    cursor: pointer;
+}
+
+.hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.cookies:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.75px;
+}
+
+.language:hover {
+    transition: all 0.2s ease-in-out;
+    scale: 1.03;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+h2:hover {
+    text-decoration: underline solid white 2px;
+    cursor: pointer;
+}
+
+h4:hover {
+    cursor: pointer;
+    text-decoration: underline solid white 1px;
+}
+
+.trending-songs > div:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.trending-songs p:hover {
+    text-decoration: underline;
+}
+
+.artists a:hover {
+    text-decoration: underline solid rgb(180, 176, 176);
+}
+
+.popular-artists-body > div:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.popular-artists-body a:hover {
+    text-decoration: underline solid white 1.5px;
+}
+
+.popular-albums-body > div:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.popular-albums-body > div > a:hover {
+    text-decoration: underline solid white 1.5px;
+}
+
+.popular-albums-body > div > div > a:hover {
+    text-decoration: underline solid rgb(180, 176, 176);
+}
+
+.popular-radio-body > div:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.featured-charts-body > div:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.icons img:hover {
+    cursor: default;
+    background-color: #727272;
+}
+
+.play-button:hover {
+    background-color: #3be477;
+    scale: 1.05;
+}
+
+.create-playlist:hover {
+    background-color: hsla(0, 0%, 24%, 1);
+}
