@@ -1,6 +1,6 @@
-// document.addEventListener("contextmenu", (event) => {
-//     event.preventDefault();
-// })
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+})
 
 
 // Add on-click border effect to search bar
@@ -265,4 +265,5 @@ document.querySelector(".cancel").addEventListener("click", (event) => {
     document.querySelector(".menu").style.zIndex = "1";
     document.querySelector(".left").style.left = "-45%";
     event.stopPropagation();
+
 });
