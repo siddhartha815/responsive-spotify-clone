@@ -74,8 +74,7 @@ function playAudio(index) {
         str = str.replaceAll('"', "");
         str = str.replaceAll('(', "");
         str = str.replaceAll(')', "");
-        let song = await fetch("http://127.0.0.1:5500/songs/" + str + ".mp3");
-        audio.src = song.url;
+        audio.src = `songs/${str}.mp3`;
         audio.play();
 
         // Adding pop up style to the music playbar
@@ -267,3 +266,4 @@ document.querySelector(".cancel").addEventListener("click", (event) => {
     event.stopPropagation();
 
 });
+
